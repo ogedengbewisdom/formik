@@ -37,7 +37,8 @@ body {
 }
 
 .form-control input,
-.form-control select {
+.form-control select,
+.form-control textarea {
   font: inherit;
   padding: 0.5rem;
   border-radius: 4px;
@@ -95,7 +96,8 @@ button:disabled:focus {
   margin-left: 1rem;
 }
 
-.invalid input {
+.invalid input,
+.invalid textarea {
   border: 1px solid #b40e0e;
   background-color: #fddddd;
 }
